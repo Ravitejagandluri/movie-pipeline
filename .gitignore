@@ -3,11 +3,6 @@ venv/
 __pycache__/
 *.pyc
 
-# Secrets
-omdb_cache.json
-
-# SQLite DB (optional to ignore — but recommended)
-movies.db
 
 # OS junk
 .DS_Store

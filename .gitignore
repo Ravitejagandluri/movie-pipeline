@@ -4,7 +4,6 @@ __pycache__/
 *.pyc
 
 # Secrets
-.env
 omdb_cache.json
 
 # SQLite DB (optional to ignore — but recommended)

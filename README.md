@@ -11,10 +11,12 @@ cd movie-pipeline
 
 ## step-2
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate.ps1
 
 ## step-3
 pip install -r requirements.txt
+python -m pip install python-dotenv
+
 
 ## step-4  make sure you update with your key or which is working in .env file 
 OMDB_API_KEY=your_api_key_here
